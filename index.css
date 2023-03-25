@@ -1,0 +1,25 @@
+body
+{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#canvas
+{
+    position: relative;
+    margin-top: 125px;
+    border: 1px solid black;
+}
+
+#scoreLabel
+{
+    color : white;
+    font-weight: 600;
+    font-size: 40px;
+    position: absolute;
+    left: 50vw;
+    top: 20vh;
+
+}
