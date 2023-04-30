@@ -95,3 +95,10 @@ window.addEventListener("keydown", e =>
             bird.jump();
     }
 })
+
+window.addEventListener("click", e =>
+{
+    if ( bird.dead ) StartGame();
+        else
+            bird.jump();
+})
